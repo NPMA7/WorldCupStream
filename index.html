@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gate Stream</title>
+    <link rel="icon" type="image/png" href="img/gatestream_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navbar">
+        <a href="index.html">
+            <div class="logo">
+                Gate<span>Stream</span>
+            </div>
+        </a>
+    </header>
+    
+    <main class="container">
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search teams or competition...">
+            <select id="filter">
+                <option value="all">All Competitions</option>
+            </select>
+        </div>
+
+        <div id="loader" class="loader">Loading matches...</div>
+        
+        <div id="dashboard-view">
+            <div id="matches-grid" class="grid">
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
