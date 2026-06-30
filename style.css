@@ -629,4 +629,91 @@ body {
     .controls input { width: 100%; }
     .hero h1 { font-size: 2.5rem; }
     .card { padding: 1.5rem; }
+
+    /* Countdown Responsiveness */
+    .countdown-card {
+        padding: 1.5rem 1rem;
+    }
+    
+    .cd-competition {
+        font-size: 1rem;
+        padding: 0.4rem 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cd-teams {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .cd-teams span {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .cd-vs {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+        margin: 0.25rem 0;
+    }
+    
+    .cd-timer {
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .cd-box {
+        min-width: 65px;
+        padding: 1rem 0.5rem;
+        border-radius: 12px;
+    }
+    
+    .cd-num {
+        font-size: 1.8rem;
+    }
+    
+    .cd-colon {
+        font-size: 2rem;
+        margin-top: -1rem;
+    }
+    
+    .cd-text {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cd-progress-wrapper {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cd-timer {
+        gap: 0.25rem;
+    }
+    
+    .cd-box {
+        min-width: 55px;
+        padding: 0.75rem 0.25rem;
+        border-radius: 10px;
+    }
+    
+    .cd-num {
+        font-size: 1.4rem;
+    }
+    
+    .cd-colon {
+        font-size: 1.5rem;
+        margin-top: -0.75rem;
+    }
+    
+    .cd-label {
+        font-size: 0.55rem;
+        letter-spacing: 1px;
+    }
 }
